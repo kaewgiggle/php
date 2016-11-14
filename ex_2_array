@@ -1,0 +1,9 @@
+<?php
+
+echo '4.' . '<br>';
+$x = array(1, 2, 3, 4, 5);
+echo var_dump($x);
+unset($x[3]);
+echo var_dump($x);
+
+?>
